@@ -1,0 +1,73 @@
+{
+  "Logistic Regression": {
+    "cv_roc_auc": 0.7482,
+    "cv_pr_auc": 0.703,
+    "accuracy": 0.6699,
+    "precision": 0.6368,
+    "recall": 0.7493,
+    "f1": 0.6885,
+    "roc_auc": 0.7372,
+    "pr_auc": 0.6648
+  },
+  "Random Forest": {
+    "cv_roc_auc": 0.7226,
+    "cv_pr_auc": 0.6655,
+    "accuracy": 0.6824,
+    "precision": 0.6723,
+    "recall": 0.6781,
+    "f1": 0.6752,
+    "roc_auc": 0.7409,
+    "pr_auc": 0.6852
+  },
+  "HistGradientBoosting": {
+    "cv_roc_auc": 0.711,
+    "cv_pr_auc": 0.6669,
+    "accuracy": 0.6824,
+    "precision": 0.6676,
+    "recall": 0.6923,
+    "f1": 0.6797,
+    "roc_auc": 0.7326,
+    "pr_auc": 0.6612
+  },
+  "K-Nearest Neighbours": {
+    "cv_roc_auc": 0.7148,
+    "cv_pr_auc": 0.6518,
+    "accuracy": 0.6505,
+    "precision": 0.6364,
+    "recall": 0.6581,
+    "f1": 0.6471,
+    "roc_auc": 0.7139,
+    "pr_auc": 0.6436
+  },
+  "_best": "Logistic Regression",
+  "_churn_rate": 0.4874,
+  "_n_customers": 3601,
+  "_n_train": 2880,
+  "_n_test": 721,
+  "_n_features": 18,
+  "_summary": {
+    "original_rows": 541909,
+    "duplicates_removed": 5268,
+    "missing_cid_removed": 135037,
+    "bad_dates_removed": 0,
+    "cancellations_flagged": 8872,
+    "non_product_or_invalid": 1449,
+    "final_purchase_rows": 391283,
+    "unique_customers": 4334,
+    "date_min": "2010-12-01 08:26:00",
+    "date_max": "2011-12-09 12:50:00"
+  },
+  "_risk_counts": {
+    "MEDIUM": 1648,
+    "HIGH": 1045,
+    "LOW": 908
+  },
+  "_medians": {
+    "recency_churned": 106.0,
+    "recency_retained": 37.0,
+    "frequency_churned": 1.0,
+    "frequency_retained": 3.0,
+    "monetary_churned": 380.5,
+    "monetary_retained": 934.2
+  }
+}
